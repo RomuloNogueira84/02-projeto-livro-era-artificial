@@ -1,0 +1,36 @@
+:root {
+    --cor-primaria: #000000;  /* Preto */
+    --cor-secundaria: #F5F5F5; /* Branco Sujo */
+    --cor-terciaria: #D5D5D5;  /* Cinza Claro */
+    --cor-destaque: #49B970;  /* Verde Vibrante */
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma', sans-serif;
+}
+body{
+    display: block;
+    margin: 8px;
+}
+h1 {
+    color: var(--cor-primaria);
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+div {
+    text-align: center;
+    border-top: 1 px solid var(--cor-terciaria);
+    padding: 50px;
+    background-color: var(--cor-secundaria);
+}
+a{
+    font-size: x-large;
+    margin: 15px;
+    padding: 15px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-destaque);
+    text-decoration: none;
+    border-radius: 25px;
+}
